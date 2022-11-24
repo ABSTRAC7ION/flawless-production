@@ -1,0 +1,140 @@
+
+  @font-face {
+    font-family: 'Dolce';
+    src: local('Dolce'), url("../../fonts/Dolce Vita Heavy Bold.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Dolce-R';
+    src: local('Dolce'), url("../../fonts/DOLCE VITA R.TTF") format('truetype');
+  }
+  
+  @mixin bg-gradient($start-colour, $end-colour) {
+    background-color: $start-colour;
+    background-image: -webkit-gradient(linear, left top, right top, from($start-colour), to($end-colour));
+    background-image: -webkit-linear-gradient(left, $start-colour, $end-colour);
+    background-image:    -moz-linear-gradient(left, $start-colour, $end-colour);
+    background-image:     -ms-linear-gradient(left, $start-colour, $end-colour);
+    background-image:      -o-linear-gradient(left, $start-colour, $end-colour);
+    background-image:         linear-gradient(left, $start-colour, $end-colour);
+    filter:            progid:DXImageTransform.Microsoft.gradient(start-colourStr='#{$start-colour}', end-colourStr='#{$end-colour}', gradientType='1');
+}
+
+
+#navbar {
+    font-family: Dolce-R;
+    position: fixed;
+    top: 2vh;
+    width: 100%;
+    display: block;
+    mix-blend-mode: difference;
+    z-index: 99;
+   }
+
+   .nav-logo{
+    font-family: Dolce;
+    font-size: 2.25rem;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align: left;
+    letter-spacing: 3px;
+
+   }
+   
+   #navbar ul {
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     gap: 2em;
+     padding-right: 2.5rem;
+     padding-left: 2.5rem;
+   }
+   
+   #navbar li{
+     text-decoration: none;
+     display: inline-block;
+     position: relative;
+     font-size: 0.825rem;;
+     color: white;
+     letter-spacing: 1px;
+   }
+  
+   a{
+    list-style: none;
+    text-decoration: none;
+     display: inline-block;
+   }
+
+   #reg-symbol-nav{
+    font-family: Dolce-light;
+    padding-left: 0.2rem;
+    }
+
+    .nav-items, .nav-info{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      color: white;
+      gap: 2px;
+      width:max-content
+    }
+
+    .nav-right {
+      display: flex;
+      flex-direction: row;
+      gap: 6rem;
+      margin-left: auto;
+    }
+
+    #navbar > ul > div > div.nav-info > li:hover {
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    // highlight on hover
+    // .nav-items a li::before {  
+    //   transform: scaleX(0);
+    //   transform-origin: bottom right;
+    // }
+    
+    // .nav-items a li:hover::before {
+    //   transform: scaleX(1);
+    //   transform-origin: bottom left;
+    // }
+    
+    // .nav-items a li::before {
+    //   content: " ";
+    //   display: block;
+    //   position: absolute;
+    //   top: 0; right: 0; bottom: 0; left: 0;
+    //   inset: 0 0 0 0;
+    //   background: #1600A8;
+    //   // oposite = #FFE019
+    //   z-index: -1;
+    //   transition: transform .3s ease;
+    // }
+
+
+    .nav-underline {
+      display: inline-block;
+  position: relative;
+  z-index: 500;
+  
+  &:hover {
+    &:after {
+      opacity: 1;
+      right: -2rem;
+    }
+  }
+  &:after {
+    opacity: 0;
+    content: '\2192';
+    position: absolute;
+    font-size: 0.75rem;
+    color: white;
+    right: -1.5rem;
+    transition: all .4s cubic-bezier(0.7,0,0.3,1);
+  }
+    }
