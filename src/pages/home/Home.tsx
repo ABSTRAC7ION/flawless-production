@@ -143,6 +143,18 @@ class App extends React.Component<
     });
 
     trace.seek((this.state.scrolledbar / 30) * trace.duration);
+
+    const astro = anime({
+      targets: ".expo1",
+      opacity: 0,
+      delay: function (el, i) {
+        return i * 250;
+      },
+      easing: "easeInOutSine",
+      autoplay: false,
+    });
+
+    astro.seek((this.state.scrolledbar / 100) * astro.duration);
   }
 
   componentDidMount() {
@@ -513,6 +525,27 @@ class App extends React.Component<
             </div>
           </div>
         </div>
+
+        <div className="Dolce">
+          <h1 className="text-white text-left">
+            <span className="text-orange-600">“</span> we create{" "}
+            <span className="text-orange-600"> branded </span>
+            <br />
+            digital experiences <br />
+            digital strategy <br />
+            web development <br />
+            design <span className="text-orange-600">"</span>
+          </h1>
+        </div>
+
+        <div className="Dolce flex justify-center items-center">
+          <h1 className="text-white w-1/2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+            perspiciatis quos alias veniam ipsam magnam provident veritatis
+            laboriosam nemo delectus. Eaque voluptatum officia a modi incidunt
+            rem nam eligendi voluptatibus!
+          </h1>
+        </div>
         <div id="vision">
           <div className="sticky top-0 h-screen flex justify-center items-center">
             <h1 className="w-1/2 text-white text-left">
@@ -524,12 +557,12 @@ class App extends React.Component<
             <div className="w-1/2 grid justify-center items-center" id="">
               <img className="expo1" src={without} alt="astronaut" />
               <img className="expo2" src={person} alt="astronaut" />
-              {/* <div className="astro1">
+              <div className="astro1">
                 <img className="expo1" src={without} alt="astronaut" />
               </div>
               <div className="astro2">
                 <img className="expo2" src={person} alt="astronaut" />
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
