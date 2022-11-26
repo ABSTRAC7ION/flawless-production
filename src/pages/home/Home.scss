@@ -31,80 +31,6 @@ transition: background-color 1000ms linear;
 }
 
 
-//home
-.home {
-height:100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding-right: 2.5rem;
-padding-left: 2.5rem;
-padding-top: 4rem ;
-}
-
-.mission {
-  font-family: Dolce;
-  text-align: left;
-  font-size: calc(6rem + 1vw);
-  mix-blend-mode: difference;
-  color: white;
-  z-index: 2;
-  width: max-content;
-  display: inline-block;
-  line-height: 1em;
-}
-
-.letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-.dirtyline {
-  font-family: Dirty-line;
-  font-size: calc(5rem + 1vw);
-}
-
-.ar {
-  margin: 0;
-  position: relative;
-  height: 0em;
-}
-
-.a {
-  display: block;
-  opacity: 1;
-}
-
-.ace {
-  opacity: 0;
-  transform: translateY(calc(-79px - 1vw));
-  height: calc(60px + 1vw);
-  color: white;
-  stroke: none;
-}
-
-// .mission > span:nth-child(21) {
-//   animation: animate1 infinite 3s ease-in-out;
-//   transition: all 0.5s ease-in-out;
-// -webkit-transition: all 0.5s ease-in-out;
-//    -moz-transition: all 0.5s ease-in-out;
-//    -o-transition: all 0.5s ease-in-out;
-//    -ms-transition: all 0.5s ease-in-out;
-// }
-
-// @keyframes animate1{
-// 50%{
-//   opacity: 1;
-//   content: url(../../SVG/Ace.svg);
-//   width: calc(2.6rem + 1vw);
-//   transition: all 0.5s ease-in-out;
-//   -webkit-transition: all 0.5s ease-in-out;
-//      -moz-transition: all 0.5s ease-in-out;
-//      -o-transition: all 0.5s ease-in-out;
-//      -ms-transition: all 0.5s ease-in-out;
-// }
-// }
-
 //work animation
 .work {
   mix-blend-mode: difference;
@@ -271,7 +197,7 @@ padding-top: 4rem ;
   line-height: 2.2rem;
 }
 
-vision
+// vision
 #vision {
   height: 400vh;
   font-family: Dolce;
@@ -282,7 +208,7 @@ vision
   border-bottom: 2px solid white;
 }
 
-.expo1, .expo2 {
+.expo11, .expo22 {
   grid-column: 1;
   grid-row: 1;
   height: 100vh;
@@ -290,49 +216,16 @@ vision
   object-fit: cover;
 }
 
-.expo1 {
+.expo11 {
   z-index: 2;
   opacity: 1;
 }
 
-.expo2{
+.expo22{
   z-index: 1;
 }
 
-// .astro1 {
-//   position: absolute;
-//   z-index: 1;
-//   transition: all ease-out 3s;
-//   -webkit-transition: all 3s ease-out;
-//   -moz-transition: all 3s ease-out;
-//   -o-transition: all 3s ease-out;
-//   -ms-transition: all 3s ease-out;
-// }
-// .astro2 {
-//   position: absolute;
-//   z-index: 0;
-// }
 
-// .expo1 {
-//   position: absolute;
-//   max-width: calc(20rem + 1rem);
-//   // transform: translate(685px, -256px);
-//   transition: all ease-out 3s;
-//   -webkit-transition: all 3s ease-out;
-//   -moz-transition: all 3s ease-out;
-//   -o-transition: all 3s ease-out;
-//   -ms-transition: all 3s ease-out;
-// }
-
-// .expo2 {
-//   position: absolute;
-//   max-width: calc(20rem + 1rem);
-//   // transform: translate(685px, -256px);
-// }
-
-// .expo1:hover {
-//   opacity: 0;
-// }
 
 //contact
 #contact {
