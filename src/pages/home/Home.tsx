@@ -7,6 +7,7 @@ import Mission from "../../components/mission/mission";
 import anime from "animejs/lib/anime.es.js";
 import without from "./photos/helmet.jpg";
 import person from "./photos/without explosion final final.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { ReactComponent as Work } from "../../SVG/work2.svg";
 import LoadIn from "../../components/load-in/load-in";
@@ -174,6 +175,7 @@ class App extends React.Component<
     return (
       <div id="App" className="App">
         {/* <LoadIn></LoadIn> */}
+  
         <Mission></Mission>
 
         <div className="work">
@@ -376,11 +378,8 @@ class App extends React.Component<
         </div>
 
         <div className="Dolce flex justify-center items-center">
-          <h1 className="text-white w-1/2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-            perspiciatis quos alias veniam ipsam magnam provident veritatis
-            laboriosam nemo delectus. Eaque voluptatum officia a modi incidunt
-            rem nam eligendi voluptatibus!
+          <h1 id="big-text" className="text-white w-1/2">
+            FLAWLESS PRODUCTIONS
           </h1>
         </div>
         <div id="vision">

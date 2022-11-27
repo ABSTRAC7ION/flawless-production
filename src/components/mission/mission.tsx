@@ -175,12 +175,12 @@ function Mission() {
         </span>
         <span className="letter fadein">*</span>
       </div>
-      <div className="astro1">
+      {/* <div className="astro1">
         <img className="expo1" src={without} alt="astronaut" />
       </div>
       <div className="astro2">
         <img className="expo2" src={person} alt="astronaut" />
-      </div>
+      </div> */}
     </div>
   );
 }

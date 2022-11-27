@@ -32,7 +32,7 @@
     .mission {
       font-family: Dolce;
       text-align: left;
-      font-size: calc(5rem + 1vw);
+      font-size: calc(5.2rem + 1vw);
       mix-blend-mode: difference;
       color: white;
       z-index: 2;
@@ -48,7 +48,7 @@
     
     .dirtyline {
       font-family: Dirty-line;
-      font-size: calc(4.6rem + 1vw);
+      font-size: calc(4.8rem + 1vw);
     }
     
     .ar {
@@ -86,7 +86,7 @@
 
 .expo1 {
   position: absolute;
-  max-width: 24.5rem;
+  max-width: 24rem;
   transform: translate(694px, -278px);
   transition: all ease-out 3s;
   -webkit-transition: all 3s ease-out;
@@ -97,7 +97,7 @@
 
 .expo2 {
   position: absolute;
-  max-width: 24.5rem;
+  max-width: 24rem;
   transform: translate(694px, -278px);
 }
 
