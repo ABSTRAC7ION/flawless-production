@@ -1,0 +1,141 @@
+
+//work section
+#grid-wrapper {
+  color: white;
+  font-family: Dolce;
+  display: grid;
+  gap: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  grid-template-areas:
+  "top top"
+  "A B"
+  "C D";
+  grid-template-columns: 1fr 1fr;
+}
+
+//basics
+.grid-basics {
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   overflow: hidden;
+   border: 1px solid white;
+   height: 100%;
+   width: 100%;
+}
+
+//grid sections
+#top {
+  grid-area: top;
+  height: 100vh;
+  width: -webkit-fill-available;;
+   overflow: hidden;
+}
+
+#p1 {
+  grid-area: A;
+  height: 150vh;
+   overflow: hidden;
+}
+
+#p2 {
+  grid-area: B;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#p3 {
+  grid-area: C;
+  height:55vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#p4 {
+  grid-area: D;
+  height:55vh;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+//1st child of div
+.p21h {
+  height: 100vh;
+  width:  -webkit-fill-available;
+}
+
+.p22h {
+  height: 50vh;
+  width:  -webkit-fill-available;
+}
+
+.p3n4h {
+  height: 55vh;
+  width:  -webkit-fill-available;
+}
+
+//image container
+#p1 #pi {
+  width:  -webkit-fill-available;
+  height: 140vh;
+}
+
+#topi {
+  width:  -webkit-fill-available;
+  height: 90vh;
+}
+
+ #p2 #p21{
+  height: 90vh;
+  width: -webkit-fill-available;
+ }
+
+ #p2 #p22{
+  height: 40vh;
+  width: -webkit-fill-available;
+ }
+
+ #p31, #p32, #p41, #p42 {
+  height: 45vh;
+  width: -webkit-fill-available;
+ }
+
+ //images
+ #p1 img, #p2 #p22 img, #p2 #p21 img, #p3 img, #p4 img{
+  width: 100%;
+  height: -webkit-fill-available;
+  object-fit: cover;
+ }
+
+ #topi img {
+  width: -webkit-fill-available;
+  object-fit: cover;
+ }
+ 
+//on hover
+#pi:hover, #topi:hover,#p2 #p22:hover {
+  border-radius: 50rem ;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+}
+
+#p3 #p31:hover,#p3 #p32:hover,#p4 #p41:hover,#p4 #p42:hover, #p2 #p21:hover{
+  border-radius: 100% ;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+}
+

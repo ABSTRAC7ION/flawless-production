@@ -37,3 +37,7 @@ code {
   background: #888; 
   border-radius: 2rem
 }
+
+.text-xs {
+  font-size: 0.65rem;
+}

@@ -1,0 +1,42 @@
+.ps {
+    font-family: Dolce;
+    margin-top: 5vh;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .ps h1 {
+    font-size: 3rem;
+    line-height: 2.8rem;
+  }
+  
+  .view-all {
+      height: 15rem;
+      width: 5rem;
+      margin-left: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .tv-fx {
+    margin-left: auto;
+    width: -webkit-fill-available;
+  
+  }
+  
+  .static {
+    object-fit: cover;
+    border-radius: 1rem;
+    height: 60vh;
+    width: 100%;
+    border: 1px solid white;
+  }
+  
+  .work-tv {
+    font-size: 4rem;
+  }
+  

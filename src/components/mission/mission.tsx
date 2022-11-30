@@ -2,17 +2,17 @@ import React from "react";
 import "./mission.scss";
 import { useInView } from "react-intersection-observer";
 import { ReactComponent as Ace } from "../../SVG/Ace.svg";
-import without from "./photos/helmet.jpg";
-import person from "./photos/without explosion final final.jpg";
 
 function Mission() {
   const { ref, inView } = useInView({
     threshold: 0,
+    triggerOnce: true,
+    rootMargin: "-100px 0px",
   });
 
   return (
     <div className="home">
-      <div className="mission" ref={ref}>
+      <div className={`mission ${inView ? "mission-play" : "no"}`} ref={ref}>
         <span className="letter" id="b0">
           b
         </span>
