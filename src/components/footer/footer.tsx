@@ -27,7 +27,7 @@ function Footer() {
         </ul>
         <ul>
           <li>
-            <a href="/"> WORK </a>
+            <a href="/work"> WORK </a>
           </li>
           <li>
             <a href="/">CULTURE</a>

@@ -2,16 +2,15 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import "./Home.scss";
-import Navbar from "../../components/navbar/navabr";
 import Mission from "../../components/mission/mission";
 import anime from "animejs/lib/anime.es.js";
 import Portfolio from "../../components/portfolio/portfolio";
-import { ReactComponent as Work } from "../../SVG/work2.svg";
+import { ReactComponent as WorkSvg } from "../../SVG/work2.svg";
 import Tv from "../../components/tv/tv";
 import Footer from "../../components/footer/footer";
 import LoadIn from "../../components/load-in/load-in";
 
-class App extends React.Component<
+class Home extends React.Component<
   {},
   { scrolled: number; scrolledbar: number }
 > {
@@ -35,7 +34,7 @@ class App extends React.Component<
       opacity: [0, 1],
       easing: "easeOutExpo",
       duration: 2000,
-      delay: (el, i) => 4000 + 30 * i,
+      delay: (el, i) => 100 + 30 * i,
     });
   };
   //text replacement effect
@@ -109,19 +108,19 @@ class App extends React.Component<
     };
     this.onScrollPage = this.onScrollPage.bind(this);
   }
-  //skate board
+  // skate board
   skate = () => {
     anime
       .timeline({ loop: true, direction: "alternate" })
       .add({
         targets: ".view-all",
         duration: 3000,
-        skewY: 20,
+        skewY: 10,
         easing: "easeInOutQuad",
       })
       .add({
         targets: ".view-all",
-        skewY: -20,
+        skewY: -10,
         duration: 3000,
         easing: "easeInOutQuad",
       });
@@ -138,7 +137,8 @@ class App extends React.Component<
     this.setState({
       scrolled: document.documentElement.scrollTop,
     });
-    if (this.state.scrolled >= 1000) {
+
+    if (this.state.scrolled >= 6400) {
       var AppBg = document.getElementById("App");
       AppBg!.style.background = "black";
     } else {
@@ -170,6 +170,7 @@ class App extends React.Component<
 
     astro.seek((this.state.scrolledbar / 100) * astro.duration);
   }
+
   //page loaded
   componentDidMount() {
     this.textAnime();
@@ -190,15 +191,128 @@ class App extends React.Component<
         {/* <LoadIn></LoadIn> */}
         <Mission></Mission>
         <div className="work">
-          <Work className="svg-trace"></Work>
+          <div className="w-svg">
+            <WorkSvg className="svg-trace"></WorkSvg>
+          </div>
+          <div className="Dolce  px-10 w-portfolio">
+            <div className="work1 py-20">
+              <a href="/">
+                <div className="hs-wrapper">
+                  <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem" />
+                  <img src="https://i.imgur.com/obN6XWl.jpg" alt="Semsem 2" />
+                  <img src="https://i.imgur.com/1xrLRoe.jpg" alt="Semsem 3" />
+                  <img src="https://i.imgur.com/eKD4RgZ.jpg" alt="Semsem 4" />
+                  <img src="https://i.imgur.com/k6Mv368.jpg" alt="Semsem 5" />
+                  <img src="https://i.imgur.com/R3Qo9OM.jpg" alt="Semsem 6" />
+                  <img src="https://i.imgur.com/QtwXvUe.jpg" alt="Semsem 7" />
+                </div>
+              </a>
+              <div className="text-left float-left text-black">
+                <div className="flex flex-row justify-center items-center pt-2 gap-4">
+                  <a
+                    href="/"
+                    className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
+                  >
+                    view project
+                  </a>
+                  <span className="text-xs">
+                    brand identity / photography / Graphic Design
+                  </span>
+                </div>
+                <h2 className="text-2xl">semsem</h2>
+              </div>
+            </div>
+
+            <div className="work2 py-20">
+              <a href="/" className="ml-auto">
+                <div className="hs-wrapper">
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                </div>
+              </a>
+              <div className="text-right float-right ml-auto text-black">
+                <div className="flex flex-row justify-center items-center pt-2 gap-4">
+                  <a
+                    href="/"
+                    className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
+                  >
+                    view project
+                  </a>
+                  <span className="text-xs">photography / Graphic Design</span>
+                </div>
+                <h2 className="text-2xl">ASTRO</h2>
+              </div>
+            </div>
+            <div className="work1 py-20">
+              <a href="/">
+                <div className="hs-wrapper">
+                  <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem" />
+                  <img src="https://i.imgur.com/obN6XWl.jpg" alt="Semsem 2" />
+                  <img src="https://i.imgur.com/1xrLRoe.jpg" alt="Semsem 3" />
+                  <img src="https://i.imgur.com/eKD4RgZ.jpg" alt="Semsem 4" />
+                  <img src="https://i.imgur.com/k6Mv368.jpg" alt="Semsem 5" />
+                  <img src="https://i.imgur.com/R3Qo9OM.jpg" alt="Semsem 6" />
+                  <img src="https://i.imgur.com/QtwXvUe.jpg" alt="Semsem 7" />
+                </div>
+              </a>
+              <div className="text-left float-left text-black">
+                <div className="flex flex-row justify-center items-center pt-2 gap-4">
+                  <a
+                    href="/"
+                    className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
+                  >
+                    view project
+                  </a>
+                  <span className="text-xs">
+                    web developemnt / ui/ux design / photography / Graphic
+                    Design
+                  </span>
+                </div>
+                <h2 className="text-2xl">Egypt</h2>
+              </div>
+            </div>
+            <div className="work2 py-20">
+              <a href="/" className="ml-auto">
+                <div className="hs-wrapper">
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/G7oYh8C.jpg" alt="Astro" />
+                  <img src="https://i.imgur.com/ibaKTEd.jpg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
+                </div>
+              </a>
+              <div className="text-right float-right ml-auto text-black">
+                <div className="flex flex-row justify-center items-center pt-2 gap-4">
+                  <a
+                    href="/"
+                    className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
+                  >
+                    view project
+                  </a>
+                  <span className="text-xs">
+                    Developer Slices and Designer Jams
+                  </span>
+                </div>
+                <h2 className="text-2xl">PANTRY</h2>
+              </div>
+            </div>
+          </div>
         </div>
-        <Portfolio></Portfolio>
+
+        {/* <Portfolio></Portfolio> */}
+
         <Tv></Tv>
         <Footer></Footer>
-        <Navbar></Navbar>
       </div>
     );
   }
 }
 
-export default App;
+export default Home;

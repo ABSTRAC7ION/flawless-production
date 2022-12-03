@@ -10,7 +10,7 @@ function Tv() {
 
   return (
     <div className="ps">
-      <span className="ps1 flex flex-row items-center">
+      <span className="ps1 flex flex-row">
         <h1 className="text-white text-left">
           <span className="text-orange-600">“</span> we create{" "}
           <span
@@ -85,51 +85,53 @@ function Tv() {
             web development
           </span>{" "}
           <br />
-          <span
-            onMouseEnter={(e) => {
-              setStyle({ display: "block" });
-              setImg(
-                "https://i.pinimg.com/originals/e5/57/b4/e557b46e7d5f64872f6e5ca0b9744d6c.gif"
-              );
-              setText("Design");
-            }}
-            onMouseLeave={(e) => {
-              setStyle({ display: "none" });
-              setImg(
-                "https://media1.giphy.com/media/XuBNdP9Pb7W9i/giphy.gif?cid=ecf05e47bvipvehtio5rlokiqe9wl9uzyvxhbz3tsyuu3mp8&rid=giphy.gif&ct=g"
-              );
-            }}
-          >
-            Design
-          </span>
-          <span className="text-orange-600"> "</span>
-        </h1>
-        <a href="/">
-          <div
-            className="work-btn Dolce view-all rounded-full border text-white border-white text-xs hover:bg-orange-600 transition duration-500 ease-out hover:ease-in"
-            onMouseEnter={(e) => {
-              setStyle({ display: "block" });
-              setImg(
-                "https://media1.giphy.com/media/XuBNdP9Pb7W9i/giphy.gif?cid=ecf05e47bvipvehtio5rlokiqe9wl9uzyvxhbz3tsyuu3mp8&rid=giphy.gif&ct=g"
-              );
-              setText("all projects");
-            }}
-            onMouseLeave={(e) => {
-              setStyle({ display: "none" });
-            }}
-          >
-            view all projects
+          <div className="flex items-center">
+            <span
+              onMouseEnter={(e) => {
+                setStyle({ display: "block" });
+                setImg(
+                  "https://i.pinimg.com/originals/e5/57/b4/e557b46e7d5f64872f6e5ca0b9744d6c.gif"
+                );
+                setText("Design");
+              }}
+              onMouseLeave={(e) => {
+                setStyle({ display: "none" });
+                setImg(
+                  "https://media1.giphy.com/media/XuBNdP9Pb7W9i/giphy.gif?cid=ecf05e47bvipvehtio5rlokiqe9wl9uzyvxhbz3tsyuu3mp8&rid=giphy.gif&ct=g"
+                );
+              }}
+            >
+              Design
+            </span>
+            <span className="text-orange-600"> "</span>{" "}
+            <a href="/work" className="mx-3">
+              <div
+                className="work-btn Dolce view-all rounded-full border border-white text-white text-xs hover:bg-orange-600 transition duration-500 ease-out hover:ease-in"
+                onMouseEnter={(e) => {
+                  setStyle({ display: "block" });
+                  setImg(
+                    "https://media1.giphy.com/media/XuBNdP9Pb7W9i/giphy.gif?cid=ecf05e47bvipvehtio5rlokiqe9wl9uzyvxhbz3tsyuu3mp8&rid=giphy.gif&ct=g"
+                  );
+                  setText("all projects");
+                }}
+                onMouseLeave={(e) => {
+                  setStyle({ display: "none" });
+                }}
+              >
+                view all projects
+              </div>
+            </a>
           </div>
-        </a>
+        </h1>
       </span>
-      <div className="tv-fx flex justify-center items-center">
+      <div className="tv-fx flex justify-center items-center ">
         <div
           style={style}
           className="work-tv mix-blend-difference z-10 absolute text-white"
         >
           {text}
         </div>
-        <img className="static z-0" src={img} alt="static" />
+        <img className="static z-0 border" src={img} alt="static" />
       </div>
     </div>
   );

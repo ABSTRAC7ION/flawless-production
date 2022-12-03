@@ -26,17 +26,17 @@
     justify-content: center;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-    padding-top: 4rem ;
+    padding-top: 5rem ;
     }
     
     .mission {
       font-family: Dolce;
       text-align: left;
-      font-size: calc(5.2rem + 1vw);
+      font-size: calc(5.8rem + 1vw);
       mix-blend-mode: difference;
       color: white;
       z-index: 2;
-      width: max-content;
+      width: 100%;
       display: inline-block;
       line-height: 1em;
     }
@@ -48,7 +48,7 @@
     
     .dirtyline {
       font-family: Dirty-line;
-      font-size: calc(4.8rem + 1vw);
+      font-size: calc(5.2rem + 1vw);
     }
     
     .ar {
@@ -64,8 +64,8 @@
     
     .ace {
       opacity: 0;
-      transform: translateY(calc(-78px - 1vw));
-      height: calc(60px + 1vw);
+      transform: translateY(calc(-83px - 1vw));
+      height: calc(63px + 1vw);
       color: white;
       stroke: none;
     }

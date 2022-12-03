@@ -3,15 +3,12 @@ import "./portfolio.scss";
 
 function Portfolio() {
   return (
-    <div className="flex items-center flex-col">
+    <div className="flex items-center flex-col portfolio">
       <div id="grid-wrapper">
         <div id="top">
           <a href="/">
             <div id="topi" className="grid-basics">
-              <img
-                src="https://uploads-ssl.webflow.com/6200a6140ca3daef2f447472/625ce5af6d89774c81cef56d_62582b318d1463609ad06ca1_sm%20banner%202%20(1)-p-1600.jpeg"
-                alt="jewels"
-              />
+              <img src="https://i.imgur.com/O8WReTe.jpg" alt="jewels" />
             </div>
           </a>
           <div className="text-left float-left">
@@ -31,10 +28,7 @@ function Portfolio() {
         </div>
         <div id="p1">
           <div id="pi" className="grid-basics">
-            <img
-              src="https://d17mj1ha1c2g57.cloudfront.net/v1/CjF6o9Qrkid6Cg5lUBm-ECXIbkE/700x/80/kode/production/clips/1d89c880-4101-4c97-926e-85f4c2aef798/screenshot-2022-10-21-at-14.39.30.png?v=1"
-              alt="jewels"
-            />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
           </div>
           <div className="text-left float-left">
             <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -44,18 +38,15 @@ function Portfolio() {
               >
                 view project
               </a>
-              <span className="text-xs">photography / brand message</span>
+              <span className="text-xs">photography / Graphic Design</span>
             </div>
-            <h2 className="text-2xl">AITCH GQ</h2>
+            <h2 className="text-2xl">ABSTRAC7ION</h2>
           </div>
         </div>
         <div id="p2">
           <div className="p21h">
             <div id="p21" className="grid-basics">
-              <img
-                src="https://cdn.sanity.io/images/a78u5s9r/production/c2a352368724f7131c9c997de86aa113c4949d6a-1600x2223.jpg?w=800"
-                alt="jewels2"
-              />
+              <img src="https://i.imgur.com/G7oYh8C.jpg" alt="jewels2" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -66,10 +57,10 @@ function Portfolio() {
                   view project
                 </a>
                 <span className="text-xs">
-                  ux design / brand marketing / photography
+                  brand concept / brand marketing / photography / graphic design
                 </span>
               </div>
-              <h2 className="text-2xl">Gardens</h2>
+              <h2 className="text-2xl">Basketball</h2>
             </div>
           </div>
           <div className="p22h">
@@ -132,10 +123,7 @@ function Portfolio() {
         <div id="p4">
           <div className="p3n4h">
             <div id="p41" className="grid-basics">
-              <img
-                src="https://images.unsplash.com/photo-1544896478-d5b709d413c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmludGFnZSUyMGNhcnxlbnwwfHwwfHw%3D&w=1000&q=80"
-                alt=""
-              />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -145,17 +133,16 @@ function Portfolio() {
                 >
                   view project
                 </a>
-                <span className="text-xs">brand re-design / photography</span>
+                <span className="text-xs">
+                  brand re-design / Graphic Design
+                </span>
               </div>
-              <h2 className="text-2xl">FF CARS</h2>
+              <h2 className="text-2xl">ENACTUS AUC CLUB</h2>
             </div>
           </div>
           <div className="p3n4h">
             <div id="p42" className="grid-basics">
-              <img
-                src="https://images.ctfassets.net/cce4tcns2qc3/3ODmcDLJma5ABbFcGCWOn4/ed2a45a352f862975590936808afcc74/35_best_streetwear_web_designs_2019.jpg?w=1920&h=950&q=85&f=center"
-                alt=""
-              />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -165,9 +152,9 @@ function Portfolio() {
                 >
                   view project
                 </a>
-                <span className="text-xs">brand re-design / ux design</span>
+                <span className="text-xs">brand identity / photography</span>
               </div>
-              <h2 className="text-2xl">CHECK</h2>
+              <h2 className="text-2xl">Delight Box</h2>
             </div>
           </div>
         </div>
