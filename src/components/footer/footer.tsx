@@ -2,7 +2,10 @@ import "./footer.scss";
 
 function Footer() {
   return (
-    <div className=" text-white text-left flex flex-col" id="footer">
+    <div
+      className=" text-white text-left flex flex-col mix-blend-difference"
+      id="footer"
+    >
       <div id="infinite">
         <div id="infinite-fx" className="ticker-wrap text-white">
           <span>FLAWLESS PRODUCTIONS</span>

@@ -6,16 +6,20 @@ function Portfolio() {
     <div className="flex items-center flex-col portfolio">
       <div id="grid-wrapper">
         <div id="top">
-          <a href="/">
-            <div id="topi" className="grid-basics">
-              <img src="https://i.imgur.com/O8WReTe.jpg" alt="jewels" />
-            </div>
-          </a>
+          <div id="topi" className="grid-basics">
+            <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem" />
+            <img src="https://i.imgur.com/obN6XWl.jpg" alt="Semsem 2" />
+            <img src="https://i.imgur.com/1xrLRoe.jpg" alt="Semsem 3" />
+            <img src="https://i.imgur.com/eKD4RgZ.jpg" alt="Semsem 4" />
+            <img src="https://i.imgur.com/Z9WMmdc.jpg" alt="Semsem 5" />
+            <img src="https://i.imgur.com/HtDqv7Y.jpg" alt="Semsem 6" />
+            <img src="https://i.imgur.com/Y1qYe0d.jpg" alt="Semsem 7" />
+          </div>
           <div className="text-left float-left">
             <div className="flex flex-row justify-center items-center pt-2 gap-4">
               <a
                 href="/"
-                className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
               >
                 view project
               </a>
@@ -29,12 +33,18 @@ function Portfolio() {
         <div id="p1">
           <div id="pi" className="grid-basics">
             <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
+            <img src="https://i.imgur.com/ibaKTEd.jpg" alt="ABSTRACTION" />
           </div>
           <div className="text-left float-left">
             <div className="flex flex-row justify-center items-center pt-2 gap-4">
               <a
                 href="/"
-                className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
               >
                 view project
               </a>
@@ -45,14 +55,20 @@ function Portfolio() {
         </div>
         <div id="p2">
           <div className="p21h">
-            <div id="p21" className="grid-basics">
-              <img src="https://i.imgur.com/G7oYh8C.jpg" alt="jewels2" />
-            </div>
+            <a href="work/semsem" id="p21" className="grid-basics">
+              <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem" />
+              <img src="https://i.imgur.com/obN6XWl.jpg" alt="Semsem 2" />
+              <img src="https://i.imgur.com/1xrLRoe.jpg" alt="Semsem 3" />
+              <img src="https://i.imgur.com/eKD4RgZ.jpg" alt="Semsem 4" />
+              <img src="https://i.imgur.com/Z9WMmdc.jpg" alt="Semsem 5" />
+              <img src="https://i.imgur.com/HtDqv7Y.jpg" alt="Semsem 6" />
+              <img src="https://i.imgur.com/Y1qYe0d.jpg" alt="Semsem 7" />
+            </a>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
                 <a
                   href="/"
-                  className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                  className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
                 >
                   view project
                 </a>
@@ -69,12 +85,36 @@ function Portfolio() {
                 src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
                 alt=""
               />
+              <img
+                src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
+                alt=""
+              />
+              <img
+                src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
+                alt=""
+              />
+              <img
+                src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
+                alt=""
+              />
+              <img
+                src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
+                alt=""
+              />
+              <img
+                src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
+                alt=""
+              />
+              <img
+                src="https://www.rollingstone.com/wp-content/uploads/2021/02/0215Barbour-01-e1616432662789.jpg?w=1299&h=899&crop=1"
+                alt=""
+              />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
                 <a
                   href="/"
-                  className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                  className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
                 >
                   view project
                 </a>
@@ -88,12 +128,19 @@ function Portfolio() {
           <div className="p3n4h">
             <div id="p31" className="grid-basics">
               <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
+              <img src="https://i.imgur.com/nz1OsX5.jpeg" alt="SemSem" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
                 <a
                   href="/"
-                  className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                  className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
                 >
                   view project
                 </a>
@@ -105,12 +152,18 @@ function Portfolio() {
           <div className="p3n4h">
             <div id="p32" className="grid-basics">
               <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
+              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
+              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
+              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
+              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
+              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
+              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="astronaut" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
                 <a
                   href="/"
-                  className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                  className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
                 >
                   view project
                 </a>
@@ -124,12 +177,19 @@ function Portfolio() {
           <div className="p3n4h">
             <div id="p41" className="grid-basics">
               <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
+              <img src="https://i.imgur.com/1gGGFmU.jpeg" alt="" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
                 <a
                   href="/"
-                  className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                  className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
                 >
                   view project
                 </a>
@@ -143,12 +203,19 @@ function Portfolio() {
           <div className="p3n4h">
             <div id="p42" className="grid-basics">
               <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
+              <img src="https://i.imgur.com/QJFGiAh.jpeg" alt="" />
             </div>
             <div className="text-left float-left">
               <div className="flex flex-row justify-center items-center pt-2 gap-4">
                 <a
                   href="/"
-                  className="rounded-full border border-white px-6 text-xs hover:bg-white hover:text-black transition duration-500 ease-out hover:ease-in"
+                  className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-black transition duration-500 ease-out hover:ease-in"
                 >
                   view project
                 </a>

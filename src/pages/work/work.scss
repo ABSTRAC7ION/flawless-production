@@ -1,6 +1,14 @@
 .workHome {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
     padding-top: 5rem;
     font-size: 15rem;
+}
+
+.work-sec{
+    z-index: 2;
+    position: relative;
+}
+
+.work-sec a {
+    display: block;
+    width: fit-content;
 }

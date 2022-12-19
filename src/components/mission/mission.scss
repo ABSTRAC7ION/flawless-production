@@ -35,7 +35,7 @@
       font-size: calc(5.8rem + 1vw);
       mix-blend-mode: difference;
       color: white;
-      z-index: 2;
+      z-index: 10;
       width: 100%;
       display: inline-block;
       line-height: 1em;
@@ -107,4 +107,32 @@
     
 .expo1:hover {
     opacity: 0;
+}
+
+.astronaut img{
+  position: absolute;
+  top: 4rem;
+  right: 12.7rem;
+  width: 25rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.astronaut > img:nth-child(1) {
+  z-index: 1;
+  transition: all 4s ease-in-out;
+}
+
+.astronaut > img:nth-child(2) {
+  z-index: 2;
+  opacity: 0;
+  transition: all 4s ease-in-out;
+}
+
+.astronaut > img:nth-child(2):hover {
+ opacity: 1;
+}
+
+.mission:hover + .astronaut > img:nth-child(2) {
+  opacity: 1;
 }

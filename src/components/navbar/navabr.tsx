@@ -1,11 +1,24 @@
 import React from "react";
 import "./navbar.scss";
+import { motion } from "framer-motion";
 
 class Navbar extends React.Component {
   render() {
     return (
       <div id="navbar">
-        <ul>
+        <motion.ul
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 1,
+              delay: 0.2,
+              ease: "easeInOut",
+            },
+          }}
+          viewport={{ once: true }}
+        >
           <a href="/" className="nav-logo">
             F/X
           </a>
@@ -31,7 +44,7 @@ class Navbar extends React.Component {
               </li>
             </div>
           </div>
-        </ul>
+        </motion.ul>
       </div>
     );
   }

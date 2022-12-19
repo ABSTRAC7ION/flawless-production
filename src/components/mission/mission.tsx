@@ -168,6 +168,10 @@ function Mission() {
         </span>
         <span className="letter fadein">*</span>
       </div>
+      <div className="astronaut">
+        <img src="https://i.imgur.com/3lHKv8C.jpg" alt="astronaut helmet" />
+        <img src="https://i.imgur.com/OOgU3R6.jpg" alt="astronaut" />
+      </div>
       {/* <div className="astro1">
         <img className="expo1" src={without} alt="astronaut" />
       </div>

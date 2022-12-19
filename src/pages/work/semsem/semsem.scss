@@ -1,0 +1,21 @@
+.semsem img {
+    aspect-ratio: 16/9;
+    width: -webkit-fill-available;
+    object-fit: cover;
+}
+
+.grid-info {
+    display: grid;
+  grid-template-areas:
+  "A B";
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-b{
+    grid-area: B;
+}
+
+.grid-b h1 {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}

@@ -1,0 +1,105 @@
+
+//work animation
+.work {
+    height: 1050vh;
+    z-index: 1;
+    
+  }
+  
+  .w-svg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+  mix-blend-mode: difference;
+    z-index: 0;
+  }
+  
+  //portfolio
+  .w-portfolio {
+    z-index: 2;
+    margin-top: 400vh;
+    position: relative;
+  }
+  
+  .w-portfolio a{
+    display: block;
+    width: fit-content;
+  }
+  
+  .hs-wrapper {
+    position: relative;
+    height: 80vh;
+    aspect-ratio: 16 / 9;
+    width: fit-content;
+  }
+  
+  .hs-wrapper img{
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 80vh;
+    top: 0px;
+      left: 0px;
+      position: absolute;
+      animation: showMe 2.1s linear infinite 0s forwards;
+      animation-play-state: paused;
+  }
+
+  .hs-wrapper video{
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 80vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -o-object-position: center;
+      object-position: center;
+      -o-object-fit: cover;
+      object-fit: cover;
+  }
+
+  
+  // @keyframes showMe {
+  //   0% { visibility: visible; z-index: 100; }
+  //   12% { visibility: visible; z-index: 100; }
+  //   25% { visibility: hidden; z-index: 0; }
+  //   100% { visibility: hidden; z-index: 0; }
+  // }
+  
+  // .hs-wrapper img:nth-child(1){
+  //     z-index: 9;
+  // }
+  // .hs-wrapper img:nth-child(2){
+  //     animation-delay: 0.3s;
+  //     z-index: 8;
+  // }
+  // .hs-wrapper img:nth-child(3){
+  //     animation-delay: 0.6s;
+  //     z-index: 7;
+  // }
+  // .hs-wrapper img:nth-child(4){
+  //     animation-delay: 0.9s;
+  //     z-index: 6;
+  // }
+  // .hs-wrapper img:nth-child(5){
+  //     animation-delay: 1.2s;
+  //     z-index: 4;
+  // }
+  // .hs-wrapper img:nth-child(6){
+  //     animation-delay: 1.5s;
+  //     z-index: 3;
+  // }
+  // .hs-wrapper img:nth-child(7){
+  //     animation-delay: 1.8s;
+  //     z-index: 2;
+  // }
+  
+  // #App > div.work > div.Dolce.px-10.w-portfolio > div:nth-child(1) > div {
+  //   mix-blend-mode: difference;
+  // }

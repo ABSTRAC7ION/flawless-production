@@ -19,18 +19,14 @@
 
   //app intro
   .App-intro {
-    background-color: black;
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    z-index: 100;
-    position: fixed;
-    height: 100vh;
     overflow: hidden;
     -ms-overflow-style: none;
-  
+
   }
 
   .App-intro::-webkit-scrollbar {
