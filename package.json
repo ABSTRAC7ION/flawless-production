@@ -2,6 +2,7 @@
   "name": "app-name",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://abstrac7ion.github.io/flawless-production/",
   "dependencies": {
     "@react-spring/parallax": "^9.5.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -31,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,6 +59,7 @@
     "@types/jquery": "^3.5.14",
     "@types/react-transition-group": "^4.4.5",
     "animejs": "^3.2.1",
+    "gh-pages": "^4.0.0",
     "loader-utils": ">=3.2.1",
     "nth-check": ">=2.0.1",
     "sass": "^1.55.0",
