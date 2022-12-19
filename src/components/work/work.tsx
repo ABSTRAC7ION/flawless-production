@@ -11,7 +11,8 @@ function WorkComp() {
       <div className="Dolce  px-10 w-portfolio">
         <div className="work1 py-20">
           <a href="/work/semsem" className="hs-wrapper">
-            <video
+            <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem 1" />
+            {/* <video
               disablePictureInPicture
               loop
               muted
@@ -19,7 +20,7 @@ function WorkComp() {
               className="ProjectVideo_video__CygLY"
               preload="none"
               src="https://vimeo.com/782056004"
-            ></video>
+            ></video> */}
             {/* <img src="https://i.imgur.com/obN6XWl.jpg" alt="Semsem 2" />
               <img src="https://i.imgur.com/1xrLRoe.jpg" alt="Semsem 3" />
               <img src="https://i.imgur.com/eKD4RgZ.jpg" alt="Semsem 4" />
