@@ -11,11 +11,8 @@ const Main = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/flawless-production" element={<Home />}></Route>
-        <Route path="/flawless-production/work" element={<Work />}></Route>
-        <Route
-          path="/flawless-production/work/semsem"
-          element={<Semsem />}
-        ></Route>
+        <Route path="/work" element={<Work />}></Route>
+        <Route path="/work/semsem" element={<Semsem />}></Route>
       </Routes>
     </AnimatePresence>
   );
