@@ -24,7 +24,7 @@ class Navbar extends React.Component {
           </a>
           <div className="nav-right">
             <div className="nav-items">
-              <a href="/work" className="nav-underline">
+              <a href="/flawless-production/work" className="nav-underline">
                 <li>WORK</li>
               </a>
               <a href="/" className="nav-underline">

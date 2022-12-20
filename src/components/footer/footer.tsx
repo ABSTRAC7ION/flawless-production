@@ -30,7 +30,7 @@ function Footer() {
         </ul>
         <ul>
           <li>
-            <a href="/work"> WORK </a>
+            <a href="/flawless-production/work"> WORK </a>
           </li>
           <li>
             <a href="/">CULTURE</a>

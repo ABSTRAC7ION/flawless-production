@@ -10,7 +10,7 @@ function WorkComp() {
       </div>
       <div className="Dolce  px-10 w-portfolio">
         <div className="work1 py-20">
-          <a href="/work/semsem" className="hs-wrapper">
+          <a href="/flawless-production/work/semsem" className="hs-wrapper">
             <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem 1" />
             {/* <video
               disablePictureInPicture
@@ -31,7 +31,7 @@ function WorkComp() {
           <div className="text-left float-left text-black text-wrapper">
             <div className="flex flex-row justify-center items-center pt-2 gap-4">
               <a
-                href="/work/semsem"
+                href="/flawless-production/work/semsem"
                 className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
               >
                 view project
