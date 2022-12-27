@@ -19,7 +19,7 @@ class Navbar extends React.Component {
           }}
           viewport={{ once: true }}
         >
-          <a href="/" className="nav-logo">
+          <a href="/flawless-production" className="nav-logo">
             F/X
           </a>
           <div className="nav-right">

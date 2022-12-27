@@ -9,6 +9,7 @@ import Tv from "../../components/tv/tv";
 import Footer from "../../components/footer/footer";
 import LoadIn from "../../components/load-in/load-in";
 import WorkComp from "../../components/work/work";
+import "./Media.scss";
 
 const blackBox = {
   initial: {
@@ -159,12 +160,40 @@ class Home extends React.Component<
       scrolled: document.documentElement.scrollTop,
     });
 
-    if (this.state.scrolled >= 6500) {
+    if (this.state.scrolled >= 6000) {
       var AppBg = document.getElementById("App");
       AppBg!.style.background = "black";
+
+      var textColor = document.getElementsByClassName(
+        "work-text"
+      ) as HTMLCollectionOf<HTMLElement>;
+      for (let i = 0; i < textColor.length; i++) {
+        textColor[i].style.color = "white";
+      }
+
+      var borderColor = document.getElementsByClassName(
+        "border-black"
+      ) as HTMLCollectionOf<HTMLElement>;
+      for (let i = 0; i < borderColor.length; i++) {
+        borderColor[i].style.borderColor = "white";
+      }
     } else {
       var AppBg = document.getElementById("App");
       AppBg!.style.background = "white";
+
+      var textColor = document.getElementsByClassName(
+        "work-text"
+      ) as HTMLCollectionOf<HTMLElement>;
+      for (let i = 0; i < textColor.length; i++) {
+        textColor[i].style.color = "black";
+      }
+
+      var borderColor = document.getElementsByClassName(
+        "border-black"
+      ) as HTMLCollectionOf<HTMLElement>;
+      for (let i = 0; i < borderColor.length; i++) {
+        borderColor[i].style.borderColor = "black";
+      }
     }
     const trace = anime({
       targets: ".st0",

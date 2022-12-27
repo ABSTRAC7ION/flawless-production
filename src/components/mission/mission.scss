@@ -111,7 +111,8 @@
 
 .astronaut img{
   position: absolute;
-  top: 4rem;
+  top: calc(50% + 1rem);
+  transform: translate(0, -50%);
   right: 12.7rem;
   width: 25rem;
   object-fit: cover;

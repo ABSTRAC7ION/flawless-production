@@ -1,0 +1,113 @@
+@media (max-width: 1280px) {   
+    .mission {
+        font-size: calc(5.3rem + 1vw);
+    }
+    .dirtyline {
+        font-size: calc(4.9rem + 1vw);
+    }
+    .ace {
+        height: calc(60px + 1vw);
+        transform: translateY(calc(-80px - 1vw));
+    }
+    .astronaut img {
+    width: 22.5rem;
+    }
+
+    .hs-wrapper {
+        height: 70vh;
+      }
+
+      .ps h1 {
+        font-size: calc(3rem + 1vw);
+        line-height: calc(2.8rem + 1vw);
+    }
+
+    .static {
+        height: 40vh;
+    }
+
+    .work-tv {
+        font-size: 3rem;
+    }
+
+    .work {
+        height: 1000vh;
+        z-index: 1;
+    }
+  }
+
+  @media (max-width: 1024px) {   
+    .mission {
+        font-size: calc(4.3rem + 1vw);
+    }
+    .dirtyline {
+        font-size: calc(3.9rem + 1vw);
+    }
+    .ace {
+        height: calc(50px + 1vw);
+        transform: translateY(calc(-66px - 1vw));
+    }
+    .astronaut img {
+    right: 6em;
+    width: 22rem;
+    }
+
+    .hs-wrapper {
+        height: 55vh;
+      }
+
+      .ps h1 {
+        font-size: calc(2.3rem + 1vw);
+        line-height: calc(2.2rem + 1vw);
+    }
+
+    .static {
+        height: 33vh;
+    }
+
+    .work-tv {
+        font-size: 3rem;
+    }
+    .work {
+        height: 950vh;
+        z-index: 1;
+    }
+  }
+
+  @media (max-width: 768px) {   
+    .mission {
+        font-size: calc(4rem + 1vw);
+    }
+    .dirtyline {
+        font-size: calc(3.6rem + 1vw);
+    }
+    .ace {
+        height: calc(50px + 1vw);
+        transform: translateY(calc(-66px - 1vw));
+    }
+    .astronaut img {
+    right: 6em;
+    width: 22rem;
+    }
+
+    .hs-wrapper {
+        height: 55vh;
+      }
+
+      .ps h1 {
+        font-size: calc(2.3rem + 1vw);
+        line-height: calc(2.2rem + 1vw);
+    }
+
+    .static {
+        height: 33vh;
+    }
+
+    .work-tv {
+        font-size: 3rem;
+    }
+    .work {
+        height: 950vh;
+        z-index: 1;
+    }
+  }

@@ -103,7 +103,6 @@ function Mission() {
         <span className="letter" id="h3">
           h
         </span>
-        &nbsp;
         <br />
         <span className="dirtyline">
           {" "}

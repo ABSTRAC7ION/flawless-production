@@ -65,7 +65,7 @@ function Semsem() {
         exit="exit"
         variants={blackBox}
       >
-        <motion.svg className="absolute z-50 flex">
+        {/* <motion.svg className="absolute z-50 flex">
           <pattern
             id="pattern"
             patternUnits="userSpaceOnUse"
@@ -85,7 +85,7 @@ function Semsem() {
           >
             Flawless
           </text>
-        </motion.svg>
+        </motion.svg> */}
       </motion.div>
       <div className="flex flex-col justify-center px-10 pt-60 text-left">
         <h1 className="text-9xl chars overflow-hidden">
