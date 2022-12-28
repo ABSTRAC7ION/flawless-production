@@ -6,6 +6,7 @@ import aitch from "../../videos/aitch2.mp4";
 
 function WorkComp() {
   const videoRef = useRef(null);
+  const videoRef2 = useRef(null);
 
   const handleMouseEnter = () => {
     videoRef.current.play();
@@ -16,11 +17,11 @@ function WorkComp() {
   };
 
   const handleMouseEnter2 = () => {
-    videoRef.current.play();
+    videoRef2.current.play();
   };
 
   const handleMouseLeave2 = () => {
-    videoRef.current.pause();
+    videoRef2.current.pause();
   };
 
   return (
@@ -70,12 +71,11 @@ function WorkComp() {
             onMouseLeave={handleMouseLeave2}
           >
             <video
-              ref={videoRef}
+              ref={videoRef2}
               disablePictureInPicture
               loop
               muted
               playsInline
-              preload="none"
               src={aitch}
             ></video>
           </a>
