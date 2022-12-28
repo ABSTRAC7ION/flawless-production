@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flawless-production/static/css/main.41e01ce4.css",
-    "main.js": "/flawless-production/static/js/main.77554d4d.js",
+    "main.js": "/flawless-production/static/js/main.d24b4a48.js",
     "static/js/787.385eb0f9.chunk.js": "/flawless-production/static/js/787.385eb0f9.chunk.js",
     "static/media/aitch2.mp4": "/flawless-production/static/media/aitch2.69f85e4236e85abb7dc7.mp4",
     "static/media/semsem.mp4": "/flawless-production/static/media/semsem.64f2a3c34fe2101fa3a7.mp4",
@@ -14,11 +14,11 @@
     "static/media/Ace.svg": "/flawless-production/static/media/Ace.1ab22adb19293decb9492711edd6dd98.svg",
     "index.html": "/flawless-production/index.html",
     "main.41e01ce4.css.map": "/flawless-production/static/css/main.41e01ce4.css.map",
-    "main.77554d4d.js.map": "/flawless-production/static/js/main.77554d4d.js.map",
+    "main.d24b4a48.js.map": "/flawless-production/static/js/main.d24b4a48.js.map",
     "787.385eb0f9.chunk.js.map": "/flawless-production/static/js/787.385eb0f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41e01ce4.css",
-    "static/js/main.77554d4d.js"
+    "static/js/main.d24b4a48.js"
   ]
 }
