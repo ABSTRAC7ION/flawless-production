@@ -9,6 +9,13 @@
     width: 100%;
   }
   
+  #ps {
+    -webkit-transition: color 1000ms linear;
+    -moz-transition: color 1000ms linear;
+    -o-transition: color 1000ms linear;
+    -ms-transition: color 1000ms linear;
+    transition: color 1000ms linear;
+  }
   .ps h1 {
     font-size: calc(3.2rem + 1vw);
     line-height: calc(3rem + 1vw);

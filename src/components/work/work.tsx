@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./work.scss";
 import { ReactComponent as WorkSvg } from "../../SVG/work2.svg";
 import semsemVideo from "../../videos/semsem.mp4";
+import aitch from "../../videos/aitch2.mp4";
 
 function WorkComp() {
   const videoRef = useRef(null);
@@ -53,16 +54,21 @@ function WorkComp() {
         </div>
 
         <div className="work1 py-20">
-          <a href="/" className="ml-auto">
-            <div className="hs-wrapper">
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              {/* <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" /> */}
-            </div>
+          <a
+            href="/flawless-production/work/aitch"
+            className="hs-wrapper"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <video
+              ref={videoRef}
+              disablePictureInPicture
+              loop
+              muted
+              playsInline
+              preload="none"
+              src={aitch}
+            ></video>
           </a>
           <div className="text-right float-right ml-auto work-text">
             <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -74,7 +80,7 @@ function WorkComp() {
               </a>
               <span className="text-xs">photography / Graphic Design</span>
             </div>
-            <h2 className="text-2xl">ASTRO</h2>
+            <h2 className="text-2xl">AITCH</h2>
           </div>
         </div>
         <div className="work1 py-20">

@@ -11,7 +11,7 @@ function Tv() {
   return (
     <div className="ps">
       <span className="ps1 flex flex-row">
-        <h1 className="text-white text-left">
+        <h1 className="text-left" id="ps">
           <span className="text-orange-600">“</span> we create{" "}
           <span
             className="text-orange-600"

@@ -164,6 +164,9 @@ class Home extends React.Component<
       var AppBg = document.getElementById("App");
       AppBg!.style.background = "black";
 
+      var ps = document.getElementById("ps");
+      ps!.style.color = "white";
+
       var textColor = document.getElementsByClassName(
         "work-text"
       ) as HTMLCollectionOf<HTMLElement>;
@@ -180,6 +183,9 @@ class Home extends React.Component<
     } else {
       var AppBg = document.getElementById("App");
       AppBg!.style.background = "white";
+
+      var ps = document.getElementById("ps");
+      ps!.style.color = "black";
 
       var textColor = document.getElementsByClassName(
         "work-text"
