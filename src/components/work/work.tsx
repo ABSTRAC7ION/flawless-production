@@ -14,6 +14,15 @@ function WorkComp() {
   const handleMouseLeave = () => {
     videoRef.current.pause();
   };
+
+  const handleMouseEnter2 = () => {
+    videoRef.current.play();
+  };
+
+  const handleMouseLeave2 = () => {
+    videoRef.current.pause();
+  };
+
   return (
     <div className="work">
       <div className="w-svg">
@@ -56,9 +65,9 @@ function WorkComp() {
         <div className="work1 py-20">
           <a
             href="/flawless-production/work/aitch"
-            className="hs-wrapper"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
+            className="hs-wrapper ml-auto"
+            onMouseEnter={handleMouseEnter2}
+            onMouseLeave={handleMouseLeave2}
           >
             <video
               ref={videoRef}
