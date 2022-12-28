@@ -43,7 +43,6 @@ function WorkComp() {
               loop
               muted
               playsInline
-              preload="none"
               src={semsemVideo}
             ></video>
           </a>
