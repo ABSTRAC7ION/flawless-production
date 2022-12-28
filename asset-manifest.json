@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flawless-production/static/css/main.77111686.css",
-    "main.js": "/flawless-production/static/js/main.f80a3e07.js",
+    "main.css": "/flawless-production/static/css/main.41e01ce4.css",
+    "main.js": "/flawless-production/static/js/main.c91cffb1.js",
     "static/js/787.385eb0f9.chunk.js": "/flawless-production/static/js/787.385eb0f9.chunk.js",
     "static/media/semsem.mp4": "/flawless-production/static/media/semsem.64f2a3c34fe2101fa3a7.mp4",
     "static/media/Dirtyline.ttf": "/flawless-production/static/media/Dirtyline.82e068197b6c7ead5cab.ttf",
@@ -12,12 +12,12 @@
     "static/media/work2.svg": "/flawless-production/static/media/work2.2ffc7324f680f4e7adb02d5b3907ab4b.svg",
     "static/media/Ace.svg": "/flawless-production/static/media/Ace.1ab22adb19293decb9492711edd6dd98.svg",
     "index.html": "/flawless-production/index.html",
-    "main.77111686.css.map": "/flawless-production/static/css/main.77111686.css.map",
-    "main.f80a3e07.js.map": "/flawless-production/static/js/main.f80a3e07.js.map",
+    "main.41e01ce4.css.map": "/flawless-production/static/css/main.41e01ce4.css.map",
+    "main.c91cffb1.js.map": "/flawless-production/static/js/main.c91cffb1.js.map",
     "787.385eb0f9.chunk.js.map": "/flawless-production/static/js/787.385eb0f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77111686.css",
-    "static/js/main.f80a3e07.js"
+    "static/css/main.41e01ce4.css",
+    "static/js/main.c91cffb1.js"
   ]
 }
