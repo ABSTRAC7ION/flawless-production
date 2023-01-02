@@ -57,7 +57,7 @@ function Semsem() {
     }),
   };
   return (
-    <motion.div className="Dolce semsem">
+    <motion.div className="Dolce semsem bg-white">
       <motion.div
         className="absolute z-50 w-full bg-orange-600 Dolce text-6xl text-white"
         initial="initial"
@@ -87,7 +87,7 @@ function Semsem() {
           </text>
         </motion.svg> */}
       </motion.div>
-      <div className="flex flex-col justify-center px-10 pt-60 text-left">
+      <div className="flex flex-col justify-center px-10 pt-60 text-left bg-white">
         <h1 className="text-9xl chars overflow-hidden">
           <motion.span
             variants={chars}
@@ -189,7 +189,7 @@ function Semsem() {
           </div>
         </motion.a>
       </div>
-      <div className="px-10">
+      <div className="px-10 bg-white">
         <img
           className="pt-6"
           src="https://i.imgur.com/2z8E9DW.jpg"

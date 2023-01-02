@@ -23,7 +23,7 @@ function Footer() {
           <li>
             <a href="/">Spotify</a>
           </li>
-          <li className="invisible">nothing to see here &#128511;</li>
+          <li className="invisible">&#128511;</li>
           <li className=" copyright">
             <span className="text-xs">@ 2023 FLawless productions</span>
           </li>

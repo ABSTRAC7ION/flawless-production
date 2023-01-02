@@ -69,7 +69,7 @@
         font-size: 3rem;
     }
     .work {
-        height: 950vh;
+        height: 900vh;
         z-index: 1;
     }
   }
@@ -106,6 +106,10 @@
         line-height: calc(1.7rem + 1vw);
     }
 
+    .w-portfolio {
+        margin-top: 300vh;
+    }
+
     .view-all {
         height: 2rem;
     }
@@ -122,7 +126,97 @@
         display: none;
     }
     .work {
-        height: 770vh;
+        height: 700vh;
         z-index: 1;
+    }
+  }
+
+  @media (max-width: 425px) {   
+    #navbar ul {
+        padding-right:1rem;
+        padding-left:1rem;
+    }
+    .px-10 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .text-xs {
+        font-size: 0.55rem;
+    }
+
+    .mission {
+        font-size: calc(3rem + 1vw);
+    }
+    .dirtyline {
+        font-size: calc(2.7rem + 1vw);
+    }
+    .ace {
+        height: calc(35px + 1vw);
+        transform: translateY(calc(-45px - 1vw));
+    }
+    .astronaut img {
+    right: 5em;
+    width: 15rem;
+    }
+
+    .hs-wrapper {
+        height: auto;
+        width: calc(100vw - 2rem);
+      }
+
+      .ps {
+        display: flex;
+        align-items: center;
+        padding-top: 0rem;
+        padding-left: 1rem;
+    padding-right: 1rem;
+    transform: translateY(-20vh);
+      }
+
+      .ps h1 {
+        font-size: calc(2rem + 1vw);
+        line-height: calc(1.7rem + 1vw);
+    }
+
+    .w-portfolio {
+        margin-top: 200vh;
+    }
+
+    .view-all {
+        height: 2rem;
+    }
+    
+    .tv-fx {
+        display: none;
+    }
+
+    .static {
+        display: none;
+    }
+
+    .work-tv {
+        display: none;
+    }
+    .work {
+        height: 530vh;
+        z-index: 1;
+    }
+    .contact {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        gap: 2rem;
+        font-size: 1rem;
+    }
+    #footer {
+        padding-top: 0vh;
+        transform: translateY(-10vh);
+
+    }
+
+    .nav-right {
+        gap: 4rem;
+    }
+    .nav-logo {
+        font-size: 2rem;
     }
   }
