@@ -8,6 +8,8 @@ import aitch from "../../videos/aitch2.mp4";
 function WorkComp() {
   const videoRef = useRef(null);
   const videoRef2 = useRef(null);
+  const videoRef3 = useRef(null);
+  const videoRef4 = useRef(null);
 
   const handleMouseEnter = () => {
     videoRef.current.play();
@@ -22,6 +24,22 @@ function WorkComp() {
   };
 
   const handleMouseLeave2 = () => {
+    videoRef2.current.pause();
+  };
+
+  const handleMouseEnter3 = () => {
+    videoRef.current.play();
+  };
+
+  const handleMouseLeave3 = () => {
+    videoRef.current.pause();
+  };
+
+  const handleMouseEnter4 = () => {
+    videoRef2.current.play();
+  };
+
+  const handleMouseLeave4 = () => {
     videoRef2.current.pause();
   };
 
@@ -107,32 +125,49 @@ function WorkComp() {
               </div>
             </div>
             <div className="work1 py-20">
-              <a href="/">
-                <div className="hs-wrapper">
-                  <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem" />
-                </div>
+              <a href="/flawless-production/work/semsem" className="hs-wrapper">
+                <LazyLoad offset={100}>
+                  <video
+                    disablePictureInPicture
+                    loop
+                    muted
+                    playsInline
+                    autoPlay
+                    src={semsemVideo}
+                  ></video>
+                </LazyLoad>
               </a>
-              <div className="text-left float-left work-text">
+              <div className="text-left float-left work-text text-wrapper">
                 <div className="flex flex-row justify-center items-center pt-2 gap-4">
                   <a
-                    href="/"
+                    href="/flawless-production/work/semsem"
                     className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
                   >
                     view project
                   </a>
                   <span className="text-xs">
-                    web developemnt / ui/ux design / photography / Graphic
-                    Design
+                    brand identity / photography / Graphic Design
                   </span>
                 </div>
-                <h2 className="text-2xl">Egypt</h2>
+                <h2 className="text-2xl">semsem</h2>
               </div>
             </div>
+
             <div className="work1 py-20">
-              <a href="/" className="ml-auto">
-                <div className="hs-wrapper">
-                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-                </div>
+              <a
+                href="/flawless-production/work/aitch"
+                className="hs-wrapper ml-auto"
+              >
+                <LazyLoad offset={100}>
+                  <video
+                    disablePictureInPicture
+                    loop
+                    muted
+                    playsInline
+                    autoPlay
+                    src={aitch}
+                  ></video>
+                </LazyLoad>
               </a>
               <div className="text-right float-right ml-auto work-text">
                 <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -142,11 +177,9 @@ function WorkComp() {
                   >
                     view project
                   </a>
-                  <span className="text-xs">
-                    Developer Slices and Designer Jams
-                  </span>
+                  <span className="text-xs">Developer jams and designer slices </span>
                 </div>
-                <h2 className="text-2xl">PANTRY</h2>
+                <h2 className="text-2xl">pantry</h2>
               </div>
             </div>
           </div>
@@ -218,45 +251,54 @@ function WorkComp() {
                 <h2 className="text-2xl">AITCH</h2>
               </div>
             </div>
+
             <div className="work1 py-20">
-              <a href="/">
-                <div className="hs-wrapper">
-                  <img src="https://i.imgur.com/2z8E9DW.jpg" alt="Semsem" />
-                  {/* <img src="https://i.imgur.com/obN6XWl.jpg" alt="Semsem 2" />
-              <img src="https://i.imgur.com/1xrLRoe.jpg" alt="Semsem 3" />
-              <img src="https://i.imgur.com/eKD4RgZ.jpg" alt="Semsem 4" />
-              <img src="https://i.imgur.com/Z9WMmdc.jpg" alt="Semsem 5" />
-              <img src="https://i.imgur.com/HtDqv7Y.jpg" alt="Semsem 6" />
-              <img src="https://i.imgur.com/Y1qYe0d.jpg" alt="Semsem 7" /> */}
-                </div>
+              <a
+                href="/flawless-production/work/semsem"
+                className="hs-wrapper"
+                onMouseEnter={handleMouseEnter3}
+                onMouseLeave={handleMouseLeave3}
+              >
+                <video
+                  ref={videoRef3}
+                  disablePictureInPicture
+                  loop
+                  muted
+                  playsInline
+                  src={semsemVideo}
+                ></video>
               </a>
-              <div className="text-left float-left work-text">
+              <div className="text-left float-left work-text text-wrapper">
                 <div className="flex flex-row justify-center items-center pt-2 gap-4">
                   <a
-                    href="/"
+                    href="/flawless-production/work/semsem"
                     className="rounded-full border border-black px-6 text-xs hover:bg-orange-600 hover:text-white transition duration-500 ease-out hover:ease-in"
                   >
                     view project
                   </a>
                   <span className="text-xs">
-                    web developemnt / ui/ux design / photography / Graphic
-                    Design
+                    brand identity / photography / Graphic Design
                   </span>
                 </div>
-                <h2 className="text-2xl">Egypt</h2>
+                <h2 className="text-2xl">semsem</h2>
               </div>
             </div>
+
             <div className="work1 py-20">
-              <a href="/" className="ml-auto">
-                <div className="hs-wrapper">
-                  <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-                  {/* <img src="https://i.imgur.com/G7oYh8C.jpg" alt="Astro" />
-              <img src="https://i.imgur.com/ibaKTEd.jpg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" />
-              <img src="https://i.imgur.com/dhoNnvs.jpeg" alt="Astro" /> */}
-                </div>
+              <a
+                href="/flawless-production/work/aitch"
+                className="hs-wrapper ml-auto"
+                onMouseEnter={handleMouseEnter4}
+                onMouseLeave={handleMouseLeave4}
+              >
+                <video
+                  ref={videoRef4}
+                  disablePictureInPicture
+                  loop
+                  muted
+                  playsInline
+                  src={aitch}
+                ></video>
               </a>
               <div className="text-right float-right ml-auto work-text">
                 <div className="flex flex-row justify-center items-center pt-2 gap-4">
@@ -267,10 +309,10 @@ function WorkComp() {
                     view project
                   </a>
                   <span className="text-xs">
-                    Developer Slices and Designer Jams
+                    Developer jams and designer slices
                   </span>
                 </div>
-                <h2 className="text-2xl">PANTRY</h2>
+                <h2 className="text-2xl">Pantry</h2>
               </div>
             </div>
           </div>

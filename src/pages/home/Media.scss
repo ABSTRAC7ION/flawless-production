@@ -170,7 +170,6 @@
         padding-top: 0rem;
         padding-left: 1rem;
     padding-right: 1rem;
-    transform: translateY(-20vh);
       }
 
       .ps h1 {
@@ -198,7 +197,7 @@
         display: none;
     }
     .work {
-        height: 530vh;
+        height: 560vh;
         z-index: 1;
     }
     .contact {
@@ -208,9 +207,7 @@
         font-size: 1rem;
     }
     #footer {
-        padding-top: 0vh;
-        transform: translateY(-10vh);
-
+        padding-top: 5vh;
     }
 
     .nav-right {
@@ -218,5 +215,14 @@
     }
     .nav-logo {
         font-size: 2rem;
+    }
+    .hs-wrapper img, .hs-wrapper video {
+        height: 40vh;
+    }
+    .nav-items, .nav-info{
+        display: none;
+    }
+    .side-menu{
+        display: block;
     }
   }

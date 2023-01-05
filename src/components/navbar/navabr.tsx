@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+import { ReactComponent as Menu } from "../../SVG/Asset 2.svg";
 
 class Navbar extends React.Component {
   render() {
@@ -23,6 +24,9 @@ class Navbar extends React.Component {
             F/X
           </a>
           <div className="nav-right">
+            <div className="flex items-center">
+              <Menu className="side-menu"></Menu>
+            </div>
             <div className="nav-items">
               <a href="/flawless-production/work" className="nav-underline">
                 <li>WORK</li>
