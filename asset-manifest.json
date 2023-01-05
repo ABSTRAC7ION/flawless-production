@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flawless-production/static/css/main.82694c3c.css",
-    "main.js": "/flawless-production/static/js/main.300fef05.js",
+    "main.css": "/flawless-production/static/css/main.f8f74677.css",
+    "main.js": "/flawless-production/static/js/main.25e1dc5d.js",
     "static/js/787.385eb0f9.chunk.js": "/flawless-production/static/js/787.385eb0f9.chunk.js",
     "static/media/aitch2.mp4": "/flawless-production/static/media/aitch2.69f85e4236e85abb7dc7.mp4",
     "static/media/semsem.mp4": "/flawless-production/static/media/semsem.64f2a3c34fe2101fa3a7.mp4",
@@ -11,14 +11,15 @@
     "static/media/DOLCE VITA R.TTF": "/flawless-production/static/media/DOLCE VITA R.482f921d2719089add6d.TTF",
     "static/media/Scribble.ttf": "/flawless-production/static/media/Scribble.6e88672edc05bc591020.ttf",
     "static/media/work2.svg": "/flawless-production/static/media/work2.2ffc7324f680f4e7adb02d5b3907ab4b.svg",
+    "static/media/Asset 2.svg": "/flawless-production/static/media/Asset 2.1a0d31d539cad7e80184141f62559f57.svg",
     "static/media/Ace.svg": "/flawless-production/static/media/Ace.1ab22adb19293decb9492711edd6dd98.svg",
     "index.html": "/flawless-production/index.html",
-    "main.82694c3c.css.map": "/flawless-production/static/css/main.82694c3c.css.map",
-    "main.300fef05.js.map": "/flawless-production/static/js/main.300fef05.js.map",
+    "main.f8f74677.css.map": "/flawless-production/static/css/main.f8f74677.css.map",
+    "main.25e1dc5d.js.map": "/flawless-production/static/js/main.25e1dc5d.js.map",
     "787.385eb0f9.chunk.js.map": "/flawless-production/static/js/787.385eb0f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82694c3c.css",
-    "static/js/main.300fef05.js"
+    "static/css/main.f8f74677.css",
+    "static/js/main.25e1dc5d.js"
   ]
 }
